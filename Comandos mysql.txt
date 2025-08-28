@@ -1,0 +1,19 @@
+mysql -u root 
+
+show tables;
+
+create database (nome da tabela);
+
+create table 'cliente'(id int Primary Key,nome VARCHAR(45),email VARCHAR(25),telefone int(9));
+
+ show tables; (apresentar tabela)
+
+ describe tables; (Descrever tabela)
+
+not null
+
+insert into cliente(id,nome,email,telefone) VALUE(57,'Victor Leandro','Victor@gmail.com','119400289');
+insert into cliente(id,nome,email,telefone) VALUE(58,'Leandro','Leandro@gmail.com','118400289');
+insert into cliente(id,nome,email,telefone) VALUE(59,'Victor','Victor1@gmail.com','117400289');
+
+select *from cliente
